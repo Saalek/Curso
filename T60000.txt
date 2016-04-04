@@ -3,7 +3,7 @@ OBJECT Table 60000 Prueba GIT
   OBJECT-PROPERTIES
   {
     Date=04/04/16;
-    Time=10:03:13;
+    Time=[ 9:59:06];
     Modified=Yes;
     Version List=;
   }
@@ -15,7 +15,6 @@ OBJECT Table 60000 Prueba GIT
     { 1   ;   ;Code                ;Code10         }
     { 2   ;   ;Descripcion         ;Text30         }
     { 3   ;   ;Fecha Registro      ;Date           }
-    { 4   ;   ;Tipo Dato           ;Option        ;OptionString=[ ,Registro,Lineal] }
   }
   KEYS
   {
