@@ -1,0 +1,38 @@
+OBJECT Page 60000 Prueba GIT
+{
+  OBJECT-PROPERTIES
+  {
+    Date=04/04/16;
+    Time=[ 9:56:25];
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table60000;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1000000000;0;Container;
+                ContainerType=ContentArea }
+
+    { 1000000001;1;Group  ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 1000000002;2;Field  ;
+                SourceExpr=Code }
+
+    { 1000000003;2;Field  ;
+                SourceExpr=Descripcion }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
